@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <nav>
+    <ul class="nav-items">
+      <li>
+        <h1>Interactive</h1>
+        <p>Geometry Genius</p>
+      </li>
+      <li><button class="btn"><a href="blog.html">Blog</a></button></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <section class="section-1">
+
+
+      
+
+      <div class="triangle cards" id="car1">
+        <img src="triangle.png" class="img" ;>
+        <h1>Triangle</h1>
+        <p class="p">Area(A) = 0.5 ☓ b ☓ h</p>
+        <div class="card-middle">
+          <input type="number" class="input" id="tw" placeholder="b"> <b>cm</b><input type="number" class="input" id="tl"
+            placeholder="h"> <b>cm</b>
+        </div>
+        <button class="btn" id="bott">Calculate</button>
+      </div>
+
+
+
+
+      
+      <div class="rectangle cards">
+        <img src="rectangle.png" class="img" ;>
+        <h1>Rectangle</h1>
+        <p class="p">Area (A) = w ☓ I
+        </p>
+        <div class="card-middle">
+            <input type="number" class="input" id="rw" placeholder="b"> <b>cm</b><input type="number" class="input" id="rl"
+            placeholder="h"> <b>cm</b>
+        </div>
+        <button class="btn" id="rbtn">Calculate</button>
+      </div>
+
+
+      <div class="parallelogram cards">
+        <img src="parallelogram.png" class="img" ;>
+        <h1>Parallelogram</h1>
+        <p class="p"> Area (A) = b ☓ h</p>
+        <p class="p">b=10cm, h=12cm</p>
+        <button class="btn btn2" id="pbtn">Calculate</button>
+
+      </div>
+
+
+      <div class="rhombus cards">
+        <img src="rhombus.png" class="img" ;>
+        <h1>Rhombus</h1>
+        <p class="p"> Area (A) = 0.5 ☓ d<sub>1</sub> ☓ d<sub>2</sub> <br>
+        <div class="p2">
+          <p class="p">d<sub>1</sub> = 16cm </p>
+          <p class="p">d<sub>2</sub>= 8cm</p>
+        </div>
+        </p>
+        <button class="btn btn3" id="rhbtn">Calculate</button>
+      </div>
+
+
+      <div class="pentagon cards">
+        <img src="pentagon.png" class="img" ;>
+        <h1>Pentagon</h1>
+        <p class="p"> Area (A) = 0.5 ☓ p ☓ b</p>
+        <p class="p">p = 6cm, b = 10cm</p>
+        <button class="btn btn3" id="pentagon">Calculate</button>
+      </div>
+
+
+      <div class="ellipse cards">
+        <img src="ellipse.png" class="img" ;>
+        <h1>Ellipse</h1>
+        <p class="p"> Area (A) = 𝝅ab</p>
+        <p class="p">a = 10cm, b = 4cm</p>
+        <button class="btn btn3" id="ebtn">Calculate</button>
+      </div>
+
+    </section>
+
+
+
+    <section class="section-2">
+      <div class="area area-card">
+        <h1>Area Calculation</h1>
+
+        <ol id="list2"></ol>
+
+      </div>
+      <button class="btnf show" id="show">Clear</button>
+    </section>
+
+  </main>
+
+  <script src="e.js"></script>
+</body>
+
+</html>
