@@ -39,6 +39,7 @@ function two_numbers(t, n) {
 
         if (vb === 6) {
             document.getElementById("show").classList.remove("show");
+            document.getElementById("show").addEventListener("click", remove);
         }
     }
 }
