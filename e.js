@@ -13,7 +13,7 @@ let nnn = "";
 let output = document.getElementById("list2");
 
 function three_numbers(w, l) {
-    if (vb < 6) {
+    if (vb < 6 && (w>=1) && (l>=1)) {
         let res = 0.5 * w * l;
         let items_list = document.createElement("li");
         items_list.innerHTML = `<p class = "how3">${lol}.  ${nnn}</p>  </p> <p class = "how3">${res}</p> <button class = 'bbttn'><p class ="how">convert to m <sup class ="how2">2</sup></p></button>`;
@@ -28,7 +28,7 @@ function three_numbers(w, l) {
     }
 }
 function two_numbers(t, n) {
-    if (vb < 6) {
+    if (vb < 6 && (t>=1) && (n>=1)) {
         let res = t * n;
         console.log(res);
         let items_list = document.createElement("li");
